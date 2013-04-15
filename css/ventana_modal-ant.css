@@ -1,0 +1,79 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #352525;
+	padding: 10px;
+	margin: 10px;
+}
+a {
+	color: #352525;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	color: #FFF;
+	font-size: 22px;
+	background-color: #352525;
+	padding: 3px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+}
+.autocien {
+	float: left;
+	width: 100%;
+}
+#solo p {
+	font-size: 14px;
+	text-align: left;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 560px;
+}
+.contgrande {
+	float: left;
+	width: 180px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 146px;
+}
+.contgrande_video {
+	float: left;
+	width: 160px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+}
+.contenedor {
+	float: left;
+	height: 110px;
+	width: 180px;
+	position: relative;
+}
+.contenedor .vermas {
+	float: right;
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	z-index: 2;
+	top: 72px;
+	right: 0px;
+}
+.contgrande .leyenda {
+	width: 100%;
+	float: left;
+}
+.contgrande .leyenda p {
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	line-height: 13px;
+}

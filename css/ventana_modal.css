@@ -1,0 +1,102 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #352525;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: #352525;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	color: #FFF;
+	font-size: 20px;
+	background-color: #352525;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding: 3px;
+}
+h2 {
+	font-size: 16px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	width: 600px;
+}
+.autocien {
+	float: left;
+	width: 100%;
+}
+#solo p {
+	font-size: 14px;
+	text-align: left;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 560px;
+}
+.contgrande {
+	float: left;
+	width: 180px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 146px;
+}
+.contenedor {
+	float: left;
+	height: 110px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+}
+.contenedor .vermas {
+	float: right;
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	z-index: 2;
+	top: 72px;
+	right: 0px;
+}
+.contgrande .leyenda {
+	width: 100%;
+	float: left;
+}
+.contgrande .leyenda p {
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	line-height: 13px;
+}
+.contenedor_general_modal {
+	float: left;
+	width: 600px;
+	margin: 10px;
+}
+.volver {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.contenedor_general_modal #solo .textoley {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	line-height: 16px;
+	width: 600px;
+}

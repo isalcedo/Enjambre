@@ -1,0 +1,385 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+
+/*Menu superior y socialmendia*/
+.contenedor_menu_uno {
+	width:100%;
+	height:108px;
+	background:url("../images/back1_enjambre.jpg") repeat-x;
+}
+
+.menu_dos .general_color {
+	height:43px;
+	width:inherit;
+}
+
+.menu_uno {
+	width:960px;
+	height:108px;
+	margin:auto;
+}
+.menu_uno .botones{
+	height:108px;
+	width:auto;
+	float:right;
+	margin:48px 0px 0px 0px;
+	padding:auto;
+	font-size:12px;
+	color: #c0c700;
+}
+.menu_uno .botones a{
+	color:#c0c700;
+	margin:0px 10px 0px 0px; 
+}
+.menu_uno .botones a:visited{
+	color:#979b00;
+}
+.menu_uno .botones a:hover{
+	text-decoration:none;
+}
+.menu_uno .socialmedia{
+	height:108px;
+	width:auto;
+	float:right;
+	margin:-5px 0px 0px 0px;
+	padding:auto;
+}
+.menu_uno .socialmedia a{
+	margin:0px 5px 0px 0px; 
+}
+
+/*Menu principal - Colores*/
+.menu_dos {
+	height:auto;
+	width:100%;
+	margin:auto;
+}
+.menu_dos .color_uno {
+	height:43px;
+	width:inherit;
+	background:#9cb51f;
+}
+.menu_dos .color_dos {
+	height:43px;
+	width:inherit;
+	background:#c0c700;
+}
+.menu_dos .color_tres {
+	height:43px;
+	width:inherit;
+	background:#cc9c00;
+}
+.menu_dos .color_cuatro {
+	height:43px;
+	width:inherit;
+	background:#cc7400;
+}
+.menu_dos .color_cinco {
+	height:43px;
+	width:inherit;
+	background:#c74900;
+}
+.menu_dos .color_seis {
+	height:43px;
+	width:inherit;
+	background:#bf2d0f;
+}
+.menu_dos .color_siete {
+	height:43px;
+	width:inherit;
+	background:#b51f24;
+}
+.menu_dos .color_ocho {
+	height:43px;
+	width:inherit;
+	background:#a81638;
+}
+.menu_dos .color_enlace {
+	width:960px;
+	height:43px;
+	margin:auto;
+	padding:13px 0px 0px 30px;
+	text-shadow: 1px 1px 1px #000;
+}
+.menu_dos .color_enlace a{
+	font-size:16px;
+	color:#fff;
+	font-weight:bolder;
+	text-decoration:none;
+}
+.menu_dos .color_enlace a:visited{
+	font-size:16px;
+	color:#fff;
+	font-weight:bolder;
+	text-decoration:none;
+}
+.menu_dos .color_enlace a:hover{
+	text-decoration:underline;
+}
+.sombra{
+	width:100%;
+	height:49px;
+	background:url("../images/sombra.jpg") repeat-x;
+}
+
+/*Contenido general página*/
+.contenedor_general{
+	height:auto;
+	width:960px;
+	margin:0px auto 20px auto;
+	display:table;
+}
+.sombra_cuadro{
+	height:335px;
+	width:653px;
+	background:#fff;
+	position:relative;
+	top:-388px;
+	margin:0px 0px -388px 307px;
+	z-index:2;
+	float:left;
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 8px #000;
+}
+.cuadro_texto{ /*flotante*/
+	height:auto;
+	width:653px;
+	background:#fff;
+	position:relative;
+	top:-393px;
+	margin:0px 0px -383px 307px;
+	z-index:2;
+	float:left;
+}
+.cuadro_texto .contenedorslider {
+	width:653px;
+	height:344px;
+	overflow:hidden;
+}
+
+.cuadro_texto .titulo_cuadro{
+	height:42px;
+	width:651px;
+	background:#9cb51f;
+	margin:1px 0px 0px 1px;
+}
+.cuadro_texto .titulo_cuadro .titulo{
+	color:#fff;
+	font-size:20px;
+	font-weight:bolder;
+	padding:11px 0px 0px 40px;
+}
+.cuadro_texto .texto_cuadro{
+	font-size:15px;
+	width:550px;
+	min-height:450px;
+	margin:auto;
+	padding:40px 0px 0px 0px;
+}
+.cuadro_texto .texto_cuadro p {
+	margin-bottom: 15px;
+	line-height: 20px;
+	color: #352525;
+}
+.cuadro_texto .texto_cuadro h4 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+
+.cuadro_texto .texto_cuadro #tablaportafolio {
+	margin-top: 20px;
+	color: #352525;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+
+.cuadro_texto .texto_cuadro #tablaportafolio tr td {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.cuadro_texto .texto_cuadro #tablaportafolio tr td a {
+	color: #FFF;
+	background-color: #9EB71D;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0px;
+}
+.cuadro_texto .texto_cuadro #tablaportafolio tr td a:visited {
+	color: #FFF;
+	background-color: #9EB71D;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	text-decoration: none;
+}
+.cuadro_texto .texto_cuadro #tablaportafolio tr td a:hover {
+	color: #FFF;
+	background-color: #5F6C11;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	text-decoration: none;
+}
+
+
+
+
+
+.contenedor_general .contacto{
+	width:305px;
+	height:auto;
+	float:left;
+	margin:auto;
+	padding:0px 0px 0px 15px;
+	position:absolute;
+	z-index:0;
+}
+.contenedor_general .contacto h2{
+	font-size:20px;
+	padding:0px;
+	margin:0px;
+	border-bottom:none;
+	text-align: left;
+	color: #352525;
+	letter-spacing: -1px;
+}
+.contenedor_general .contacto p{
+	width:290px;
+	font-size:13px;
+	line-height:16px;
+	color:#352525;
+	padding:0px 0px 20px 0px;
+	border-bottom:dotted 2px #ccc;
+	margin:0px 0px 30px 0px;
+}
+.contenedor_general .contacto p a {
+	color: #352525;
+}
+.contenedor_general .contacto p a:hover {
+	color: #352525;
+	text-decoration: none;
+}
+
+
+.contenedor_general .talleres{
+	width:306px;
+	min-height:174px;
+	float:right;
+	background:url("../images/fondo_proyectos.jpg") no-repeat top center;
+	border:solid 1px #d2d2d2;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: relative;
+}
+.contenedor_general .talleres .titulo{
+	font-size:20px;
+	font-weight:bolder;
+	color:#000;
+	padding:0px;
+	border-bottom:none;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.contenedor_general .talleres h1 {
+	font-size:20px;
+	font-weight:bolder;
+	color:#000;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+.contenedor_general .talleres .fecha_talleres{
+	font-size:11px;
+	color:#000;
+	padding:0px;
+	border-bottom:none;
+}
+.contenedor_general .talleres p{
+	font-size:13px;
+	color:#000;
+	padding:0px;
+	border-bottom:none;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.contenedor_general .talleres .titulotaller {
+	font-size: 14px;
+}
+
+.contenedor_general .talleres a{
+	color:#be3c59;
+}
+.contenedor_general .talleres a:visited{
+	color:#be3c59;
+}
+.contenedor_general .talleres .ver_mas{
+	width:38px;
+	height:38px;
+	position:absolute;
+	z-index:1;
+	float:right;
+	margin:-20px 0px 0px 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.contenedor_general .talleres #fotosalva {
+	padding: 3px;
+	margin-bottom: 15px;
+	border: 1px solid #CCC;
+	margin-right: 10px;
+}
+
+
+/* Pie de página */
+
+.pie_pagina {
+	width:100%;
+	height:43px;
+	background:#f0f0f0;
+	z-index:3;
+	float: left;
+	position: relative;
+}
+.pie_pagina .contenido_pie {
+	height:43px;
+	width:960px;
+	margin:auto;
+}
+.pie_pagina .contenido_pie .dev {
+	float:right;	
+}
